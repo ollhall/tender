@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230831155321">
+    <title></title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header-cabinet">
+    <div class="header-cabinet__container">
+        <div class="header-cabinet__wrapper">
+            <button type="button" class="icon-menu-cabinet">
+                <span></span>
+            </button>
+            <a class="header-cabinet__logo header-cabinet-logo" href="index.html" data-da=".list-tab,767.98,0">
+                <div class="header-cabinet-logo__images">
+                    <img src="img/logo-mini.svg" alt="Logotype">
+                </div>
+            </a>
+            <div class="header-cabinet__account account-cabinet">
+                <a class="account-cabinet__message message-cabinet" href="#">
+                    <img class="message-cabinet__images" src="img/bell-message.svg" alt="Bell Icon">
+                </a>
+                <div class="account-cabinet__dropdown dropdown">
+                    <button class="account-cabinet__button dropdown__button _icon-arrow-spol">Максим</button>
+                    <ul class="account-cabinet__list dropdown__list">
+                        <li class="account-cabinet__list-item dropdown__list-item" data-value="1">
+                            <a class="dropdown__list-link" href="#">Максим</a>
+                        </li>
+                        <li class="account-cabinet__list-item dropdown__list-item" data-value="2">
+                            <a class="dropdown__list-link" href="#">User 001</a>
+                        </li>
+                        <li class="account-cabinet__list-item dropdown__list-item" data-value="3">
+                            <a class="dropdown__list-link" href="#">Man 4x4</a>
+                        </li>
+                        <li class="account-cabinet__list-item dropdown__list-item" data-value="4">
+                            <a class="dropdown__list-link" href="#">Макс 4х4</a>
+                        </li>
+                    </ul>
+                    <input type="text" name="select-category" value="" class="dropdown__input-hidden">
+                </div>
+                <a class="account-cabinet__avatar" href="#">
+                    <picture><source srcset="img/broken/01.webp" type="image/webp"><img src="img/broken/01.png" alt="Avatar"></picture>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <main class="page">
+      <section class="page__cabinet cabinet">
+        <div class="cabinet__container">
+          <div class="cabinet__body">
+            <div class="cabinet__top">
+              <h1 class="cabinet__title" data-da=".tabs__list,767.98,0">Особистий кабінет</h1>
+              <div class="tenders__dropdown dropdown">
+                <button class="tenders__button dropdown__button _icon-arrow-spol">Всі тендери</button>
+                <ul class="tenders__list dropdown__list">
+                  <li class="tenders__list-item dropdown__list-item" data-value="1">
+                    <a class="dropdown__list-link" href="#">Всі тендери</a>
+                  </li>
+                  <li class="tenders__list-item dropdown__list-item" data-value="2">
+                    <a class="dropdown__list-link" href="#">Не всі тендери</a>
+                  </li>
+                  <li class="tenders__list-item dropdown__list-item" data-value="3">
+                    <a class="dropdown__list-link" href="#">Добрі тендери</a>
+                  </li>
+                  <li class="tenders__list-item dropdown__list-item" data-value="4">
+                    <a class="dropdown__list-link" href="#">Погані тендери</a>
+                  </li>
+                </ul>
+                <input type="text" name="select-category" value="" class="dropdown__input-hidden">
+              </div>
+            </div>
+            <div class="cabinet__tabs tabs">
+              <ul class="tabs__list list-tab">
+                <li class="tabs__item"><button class="tabs__btn tabs__btn--active"
+                    data-tabs-path="account">Акаунт</button>
+                </li>
+                <li class="tabs__item"><button class="tabs__btn" data-tabs-path="message">Повідомлення</button></li>
+                <li class="tabs__item"><button class="tabs__btn" data-tabs-path="tenders">Тендери</button></li>
+                <li class="tabs__item">
+                  <a class="cabinet__btn-exit _icon-exit" href="#">Вийти</a>
+                </li>
+              </ul>
+              <div class="tabs__contents">
+                <div class="tabs__content account-tabs tabs__content--active" data-tabs-target="account">
+                  <div class="account-tabs__content content-account">
+                    <h3 class="content-account__title">Акаунт</h3>
+                    <div class="content-account__top">
+                      <div class="content-account__avatar">
+                        <picture><source srcset="img/account-avatar.webp" type="image/webp"><img src="img/account-avatar.png" alt="Avatar"></picture>
+                        <button class="content-account__update _icon-update"></button>
+                      </div>
+                      <div class="content-account__pseudo">
+                        <div class="pseudo-name">
+                          Псевдонім:
+                          <span>
+                            Камаз 4х4
+                          </span>
+                        </div>
+                        <button class="content-account__update _icon-update"></button>
+                      </div>
+                    </div>
+                    <p class="content-account__separate-title">Закрита інформація</p>
+                    <div class="content-account__bottom">
+                      <div class="content-account__left left-content">
+                        <ul class="left-content__list">
+                          <li class="left-content__item">
+                            Імʼя:
+                            <span>Максим</span>
+                          </li>
+                          <li class="left-content__item">
+                            E-mail:
+                            <span>example@gmail.com</span>
+                          </li>
+                          <li class="left-content__item">
+                            Телефон:
+                            <span>+380 (95) 000-11-22</span>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="content-account__right right-content">
+                        <ul class="right-content__list">
+                          <li class="right-content__item">
+                            Назва компанії:
+                            <span>Example34</span>
+                          </li>
+                          <li class="right-content__item">
+                            Код ЄДРПОУ
+                            <span>21002937</span>
+                          </li>
+                        </ul>
+                        <a class="right-content__change _icon-change" href="#">Змінити</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tabs__content message-tabs" data-tabs-target="message">
+                  <div class="message-tabs__content content-message">
+                    <h3 class="content-message__title">Повідомлення</h3>
+                    <ul class="message-grid">
+                      <li class="message-grid__item">
+                        <article class="content-message__item item-message">
+                          <fieldset>
+                            <legend><span class="message-date">23.06.23</span> / <span class="message-time">10:29</span>
+                            </legend>
+                            <div class="item-message__body">
+                              <h3 class="item-message__title">
+                                Вітаємо! Ви виграли тендер
+                              </h3>
+                              <p class="item-message__text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt
+                                ut
+                                labore et dolore magna aliqua.
+                              </p>
+                            </div>
+                          </fieldset>
+                        </article>
+                      </li>
+                      <li class="message-grid__item">
+                        <article class="content-message__item item-message">
+                          <fieldset>
+                            <legend><span class="message-date">22.06.23</span> / <span class="message-time">12:30</span>
+                            </legend>
+                            <div class="item-message__body">
+                              <h3 class="item-message__title">
+                                Вашу ставку перебили
+                              </h3>
+                              <p class="item-message__text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt
+                                ut
+                                labore et dolore magna aliqua.
+                              </p>
+                            </div>
+                          </fieldset>
+                        </article>
+                      </li>
+                      <li class="message-grid__item">
+                        <article class="content-message__item item-message">
+                          <fieldset>
+                            <legend><span class="message-date">23.06.23</span> / <span class="message-time">10:29</span>
+                            </legend>
+                            <div class="item-message__body">
+                              <h3 class="item-message__title">
+                                Вітаємо! Ви виграли тендер
+                              </h3>
+                              <p class="item-message__text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt
+                                ut
+                                labore et dolore magna aliqua.
+                              </p>
+                            </div>
+                          </fieldset>
+                        </article>
+                      </li>
+                      <li class="message-grid__item">
+                        <article class="content-message__item item-message">
+                          <fieldset>
+                            <legend><span class="message-date">22.06.23</span> / <span class="message-time">12:30</span>
+                            </legend>
+                            <div class="item-message__body">
+                              <h3 class="item-message__title">
+                                Вашу ставку перебили
+                              </h3>
+                              <p class="item-message__text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt
+                                ut
+                                labore et dolore magna aliqua.
+                              </p>
+                            </div>
+                          </fieldset>
+                        </article>
+                      </li>
+                    </ul>
+                    <button class="show-more__btn show-more _icon-arrow-spol">Більше</button>
+                  </div>
+                </div>
+                <div class="tabs__content tenders-tabs" data-tabs-target="tenders">
+                  <div class="tenders-tabs__content content-tenders">
+                    <div class="content-tenders__top">
+                      <ul class="tenders-grid">
+                        <li class="tenders-grid__item">
+                          <article class="tender__item item-tender" style="background-image: url(img/wheat-bg.jpg)">
+                            <div class="item-tender__top">
+                              <h4 class="item-tender__title">Перевезення пшениці</h4>
+                              <div class="item-tender__descr">
+                                <div class="item-tender__name item-tender__name_1">Пшениця</div>
+                                <div class="item-tender__weight">1500 т</div>
+                              </div>
+                            </div>
+                            <div class="item-tender__bottom">
+                              <div class="item-tender__distance distance">
+                                <div class="distance__destination">
+                                  <p>Котовськ</p>
+                                  <p>Ізмаїл</p>
+                                </div>
+                                <div class="item-tender__line line">
+                                  <div class="line__left">
+                                    <picture><source srcset="img/line_left.webp" type="image/webp"><img src="img/line_left.png" alt="Icon"></picture>
+                                  </div>
+                                  <div class="line__band line__band_1"></div>
+                                  <div class="line__num">348 км</div>
+                                  <div class="line__band line__band_2"></div>
+                                  <div class="line__right">
+                                    <picture><source srcset="img/line_right.webp" type="image/webp"><img src="img/line_right.png" alt="Icon"></picture>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="item-tender__timer">
+                                <p>До закінчення <br> прийому пропозицій:</p>
+                                <span>01:06:37</span>
+                              </div>
+                              <a class="item-tender__btn _icon-arrow-right" href="#">Перейти до тендеру</a>
+                            </div>
+                          </article>
+                        </li>
+                        <li class="tenders-grid__item">
+                          <article class="tender__item item-tender" style="background-image: url(img/corn-bg.jpg)">
+                            <div class="item-tender__top">
+                              <h4 class="item-tender__title">Перевезення кукурудзи</h4>
+                              <div class="item-tender__descr">
+                                <div class="item-tender__name item-tender__name_2">Кукурудза</div>
+                                <div class="item-tender__weight">1500 т</div>
+                              </div>
+                            </div>
+                            <div class="item-tender__bottom">
+                              <div class="item-tender__distance distance">
+                                <div class="distance__destination">
+                                  <p>Чубовка</p>
+                                  <p>Чорноморськ</p>
+                                </div>
+                                <div class="item-tender__line line">
+                                  <div class="line__left">
+                                    <picture><source srcset="img/line_left.webp" type="image/webp"><img src="img/line_left.png" alt="Icon"></picture>
+                                  </div>
+                                  <div class="line__band line__band_1"></div>
+                                  <div class="line__num">241 км</div>
+                                  <div class="line__band line__band_2"></div>
+                                  <div class="line__right">
+                                    <picture><source srcset="img/line_right.webp" type="image/webp"><img src="img/line_right.png" alt="Icon"></picture>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="item-tender__timer">
+                                <p>До закінчення <br> прийому пропозицій:</p>
+                                <span>00:04:25</span>
+                              </div>
+                              <a class="item-tender__btn _icon-arrow-right" href="#">Перейти до тендеру</a>
+                            </div>
+                          </article>
+                        </li>
+                      </ul>
+                    </div>
+                    <p class="content-tenders__separate-title">Завершені тендери</p>
+                    <div class="content-tenders__bottom">
+                      <ul class="tenders-grid">
+                        <li class="tenders-grid__item">
+                          <article class="tender__item item-tender" style="background-image: url(img/fig-bg.jpg)">
+                            <div class="item-tender__top">
+                              <h4 class="item-tender__title">Перевезення рису</h4>
+                              <div class="item-tender__descr">
+                                <div class="item-tender__name item-tender__name_7">Рис</div>
+                                <div class="item-tender__weight">330 т</div>
+                              </div>
+                            </div>
+                            <div class="item-tender__bottom">
+                              <div class="item-tender__distance distance">
+                                <div class="distance__destination">
+                                  <p>Полтава</p>
+                                  <p>Київ</p>
+                                </div>
+                                <div class="item-tender__line line">
+                                  <div class="line__left">
+                                    <picture><source srcset="img/line_left.webp" type="image/webp"><img src="img/line_left.png" alt="Icon"></picture>
+                                  </div>
+                                  <div class="line__band line__band_1"></div>
+                                  <div class="line__num">241 км</div>
+                                  <div class="line__band line__band_2"></div>
+                                  <div class="line__right">
+                                    <picture><source srcset="img/line_right.webp" type="image/webp"><img src="img/line_right.png" alt="Icon"></picture>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="item-tender__timer">
+                                <p>До закінчення <br> прийому пропозицій:</p>
+                                <span>21:21:12</span>
+                              </div>
+                              <a class="item-tender__btn _icon-arrow-right" href="#">Перейти до тендеру</a>
+                            </div>
+                          </article>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    
+  </div>
+  
+
+  <script src="js/app.min.js?_v=20230831155321"></script>
+</body>
+
+</html>
